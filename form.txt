@@ -1,3 +1,0 @@
-<form>
-	<en='this is form'>
-</form>
