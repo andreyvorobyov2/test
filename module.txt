@@ -3,12 +3,20 @@ function abc()
     // this is bug fix from client01
     a=0; b=b;
     bug_fix4(); // bugfix4
+	// update 1
+	code 1
+	code 2
+	code 3
+	code 4
 endfunction
 
 function cba()
 	c=b-a;
 	// add comment
     // new bug fix
+	// update 1
+	code 1
+	code 2
     r=9;
     bug_fix4(); // bugrix4
 endfunction
@@ -22,3 +30,16 @@ function bug_fix4()
     line 4
 endfunction
 
+// big update 1
+
+function update1()
+	code 1
+	code 2
+	code 3
+endfunction
+
+function update2()
+	code 1
+	code 2
+	code 3
+endfunction
