@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="739c6dcc-f487-4c0a-92d8-a3a5cde54d74">
+  <producedTypes>
+    <objectType typeId="cfe058f1-d859-4bd0-9ac9-8dbe28ecf1dc" valueTypeId="72d1fa67-97b1-4f87-87f3-d72a1276e8be"/>
+    <refType typeId="086b09e5-344e-4df0-9b60-e5b40c689925" valueTypeId="af224153-0359-456f-bbfe-cc03f606f2a1"/>
+    <selectionType typeId="92bc2a8e-fafa-4ca1-9753-a74957746660" valueTypeId="f23830a0-c43a-4177-8694-9458eff998b6"/>
+    <listType typeId="91df07a4-6ea4-418f-9e1c-c880bb5cae8e" valueTypeId="99c7e73b-90b2-47d8-8197-5a8a25c16c00"/>
+    <managerType typeId="3a2ae637-f0fe-4500-acdb-49d42d21546d" valueTypeId="c01d4d2d-6550-4420-b362-bf13ec1c25ad"/>
+  </producedTypes>
+  <name>ВидыЦенНоменклатуры</name>
+  <synonym>
+    <key>en</key>
+    <value>Виды цен номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыЦенНоменклатуры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыЦенНоменклатуры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

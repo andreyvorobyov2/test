@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38ac72d6-0a8d-4e8c-91a6-14ad467c7752">
+  <producedTypes>
+    <selectionType typeId="d4f559b7-d689-498b-be63-ced2fbf6fc90" valueTypeId="6569f9ad-a2f1-4c45-8fa9-708033426710"/>
+    <listType typeId="3b4d556d-27d6-481f-ae07-3421c30c59a5" valueTypeId="4239b104-1ba0-413f-8b4d-104fdddb1d48"/>
+    <managerType typeId="f43d4696-f399-4e28-be8a-a7c4ef47eac0" valueTypeId="2d035964-f091-4aff-8e5a-0872502cff22"/>
+    <recordSetType typeId="60372578-015e-4130-8873-85b73cbf7b4f" valueTypeId="810fd9e2-18ed-4c2d-8e2c-8d4110713c54"/>
+    <recordKeyType typeId="5feb6b41-a50d-4ceb-b8d9-be317dedb06d" valueTypeId="c4547c22-ccdf-4203-8651-d43662938e47"/>
+    <recordType typeId="ba426dba-a021-4b06-9562-eca3fe6a024a" valueTypeId="060c9f17-24c8-4a6b-b9a0-88e697da44ad"/>
+  </producedTypes>
+  <name>ДвиженияДенежныхСредств</name>
+  <synonym>
+    <key>en</key>
+    <value>Движения денежных средств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="e7951587-4dc0-4f8b-868b-72d3bd957e7a">
+    <name>Сумма</name>
+    <synonym>
+      <key>en</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ТипСумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="59ed829d-cb9b-4b8b-8aa0-94eb1f36e7a0">
+    <name>НаправлениеДвижения</name>
+    <synonym>
+      <key>en</key>
+      <value>Направление движения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.НаправленияДвиженияДенежныхСредств</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="dcb361f4-723f-40bb-ac51-bf100b579715">
+    <name>СтатьяДвиженияДенежныхСредств</name>
+    <synonym>
+      <key>en</key>
+      <value>Статья движения денежных средств</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиДвиженияДенежныхСредств</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="33119669-8823-4056-88db-17730217795c">
+    <name>БанковскийСчет</name>
+    <synonym>
+      <key>en</key>
+      <value>Банковский счет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БанковскиеСчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

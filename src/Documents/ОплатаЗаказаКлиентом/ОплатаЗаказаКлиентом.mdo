@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="daf54072-10ca-459e-ba12-10e41389c72d">
+  <producedTypes>
+    <objectType typeId="d5e510ec-0cbf-4a22-9ea3-23142ddea3fe" valueTypeId="f7058b71-3a7c-48b3-9ef9-96e4c2a2f8b1"/>
+    <refType typeId="c2fb1409-dc5b-4d88-bd16-2d112f651196" valueTypeId="315655c0-72f8-4636-8348-da4cd2de54de"/>
+    <selectionType typeId="53c63613-8c49-4895-bc64-f4dbc1179316" valueTypeId="1bbaaf80-ed53-4d3b-8616-35ed2043b4fc"/>
+    <listType typeId="869eb18c-c558-415c-bf64-0cdcb74ff411" valueTypeId="4c11381f-22c0-4f1c-8b40-8ddb7eda539a"/>
+    <managerType typeId="e24b4f86-4fd0-4510-b1ba-7b14d7ad8407" valueTypeId="2dda999b-4fb5-4d60-aa41-126ed6281511"/>
+  </producedTypes>
+  <name>ОплатаЗаказаКлиентом</name>
+  <synonym>
+    <key>en</key>
+    <value>Оплата заказа клиентом</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ОплатаЗаказаКлиентом.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.ЗаказКлиента</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ОплатаЗаказаКлиентом.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ДвиженияДенежныхСредств</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="60277213-1f1f-4e8e-937d-15e6179c0ff6">
+    <name>Заказ</name>
+    <synonym>
+      <key>en</key>
+      <value>Заказ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказКлиента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="085394a8-ea56-46b6-aec7-b2df421bf6e3">
+    <name>СтатьяДвиженияДенежныхСредств</name>
+    <synonym>
+      <key>en</key>
+      <value>Статья движения денежных средств</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиДвиженияДенежныхСредств</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="873cf3a0-9c01-437f-91ab-0c2400be12f2">
+    <name>Сумма</name>
+    <synonym>
+      <key>en</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ТипСумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5b56d902-bab7-43b9-a7bb-f7a249203480">
+    <name>БанковскийСчет</name>
+    <synonym>
+      <key>en</key>
+      <value>Банковский счет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БанковскиеСчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="35969de5-995e-4d73-85e0-6482c01a5a4a">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

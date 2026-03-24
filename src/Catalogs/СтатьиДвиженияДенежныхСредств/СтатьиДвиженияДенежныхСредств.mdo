@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7374f53c-0864-45d0-93a5-59bec15054c5">
+  <producedTypes>
+    <objectType typeId="c219fe1d-ef18-4a59-9bc7-ce908e3577d4" valueTypeId="01ea4154-ce38-4d64-a010-b0ff5852c8cf"/>
+    <refType typeId="6fee9bce-17bb-4bc3-bb8a-c68fab6b4d92" valueTypeId="d91345f9-dfb5-4752-870e-dc9b000e47a7"/>
+    <selectionType typeId="f0e68308-d94f-4657-ac8f-0a6bab1b9760" valueTypeId="e11b8943-a398-452f-af25-b4e348776b32"/>
+    <listType typeId="0fbf8d73-0348-470f-82c1-b3834414e0a1" valueTypeId="5227245a-7ceb-4575-90bb-da5186dcdd73"/>
+    <managerType typeId="85b59a22-2aea-4927-a575-280a8de7002e" valueTypeId="18de48c8-195d-4db6-b822-fca78b4166a1"/>
+  </producedTypes>
+  <name>СтатьиДвиженияДенежныхСредств</name>
+  <synonym>
+    <key>en</key>
+    <value>Статьи движения денежных средств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатьиДвиженияДенежныхСредств.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтатьиДвиженияДенежныхСредств.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="084fea7c-b943-4c97-9b95-509cde936b55">
+  <producedTypes>
+    <objectType typeId="5880f106-a7fd-46dd-b1d8-8e4b4a99384a" valueTypeId="aec4b949-78b2-4fab-9594-1397479beab9"/>
+    <refType typeId="c080c53e-0ea9-42e0-99fe-5784a3f7f0bb" valueTypeId="0586d89c-dda9-4198-b645-d227660b50dd"/>
+    <selectionType typeId="90b4aa0a-0c84-4d3d-9ad4-7d084ddadcbc" valueTypeId="97893043-9fee-4928-b427-0bc6130607cb"/>
+    <listType typeId="47491c4f-b418-4d6c-9c04-c295c413dba3" valueTypeId="b4e01977-27b6-4314-a40f-ddd4e2e0d963"/>
+    <managerType typeId="13484b2b-e49c-4831-9153-35b6d454a4fc" valueTypeId="146f6dce-0c19-4ab8-ab9b-0a0564a3ba4e"/>
+  </producedTypes>
+  <name>БанковскиеСчета</name>
+  <synonym>
+    <key>en</key>
+    <value>Банковские счета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.БанковскиеСчета.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.БанковскиеСчета.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

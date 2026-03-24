@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f163fad2-c095-4081-b8ef-d18fb5e69f14">
+  <producedTypes>
+    <refType typeId="a8fab882-ae2c-4f3b-85a8-407d30cf536e" valueTypeId="fc3b5f60-b6c6-456f-ad5f-141d7cbf87e4"/>
+    <listType typeId="f7100b24-3cd9-4a02-9fed-342be3b62c26" valueTypeId="75785e7e-514c-43b2-923a-866697c0f7ef"/>
+    <managerType typeId="c48eba82-53c3-4b08-b114-2853143abb91" valueTypeId="a7ecd3e8-6a4a-4c06-8081-83a1110fa37e"/>
+  </producedTypes>
+  <name>НаправленияДвиженияДенежныхСредств</name>
+  <synonym>
+    <key>en</key>
+    <value>Направления движения денежных средств</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f74bdf06-3012-4f6c-b3ca-e9faa214b868">
+    <name>Поступление</name>
+    <synonym>
+      <key>en</key>
+      <value>Поступление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="af5a3def-c6d3-42f0-9903-ff12a3350b9d">
+    <name>Оплата</name>
+    <synonym>
+      <key>en</key>
+      <value>Оплата</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
